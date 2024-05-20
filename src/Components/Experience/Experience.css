@@ -1,0 +1,148 @@
+.container{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.experiencecontainer{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+.experienceleftcontainer{
+    position: relative;
+    width: 600px;
+    margin-left: auto;
+}
+.experienceleftchildren2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
+.experienceleftchildren2 span:nth-child(1){
+    font-size: 65px;
+    font-weight: 700;
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    background-color: sandybrown;
+    padding: 10px;
+    border-radius: 9999px;
+}
+.experienceleftchildren2 span:nth-child(2){
+    font-weight: 700;
+    font-size: 3rem;
+    opacity: 1;
+    color: rgb(244, 243, 243);
+    text-shadow: 1px 1px 0 rgba(8, 8, 8, 0.4),
+     -1px -1px 0 rgba(8, 8, 8, 0.4), 
+     1px -1px 0 rgba(8, 8, 8, 0.4),
+     -1px 1px 0 rgba(8, 8, 8, 0.4), 
+     1px 1px 0 rgba(8, 8, 8, 0.4);
+}
+.experiencerightcontainer{
+    position: relative;
+    margin-right: auto;
+}
+
+.experiencerightcontainer > span:first-of-type{
+    color: orange;
+    font-family: 'syne';
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+}
+.experiencerightcontainer > h3{
+   margin:0;
+   font-size: 64px;
+   letter-spacing: -1.5px;
+}
+.experiencerightcontainer>h4{
+    font-size: 44px;
+    margin-top: 0.75rem ;
+    margin-bottom: 1rem;
+}
+.experiencerightcontainer>p{
+    font-family: "DM Sans", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    color: rgba(8, 8, 8, 0.6);
+}
+.experiencerightcontainer>ul{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-top: 1.175rem;
+    margin: 20px;
+    padding:20px;
+}
+.experiencelistitems li:first-child span {
+   font-size: 32px;
+   font-weight: 700;
+   font-family: 'syne';
+}
+.experiencelistitems li:first-child > *:nth-child(2) {
+    font-family: "DM Sans", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    color: rgba(8, 8, 8, 0.6);
+  }
+  .experiencelistitems li:nth-child(2) > *:first-child {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'syne';
+  }
+  .experiencelistitems li:nth-child(2) > *:nth-child(2) {
+    font-family: 'syne';
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    color: rgba(8, 8, 8, 0.6);
+  }
+  .experiencelistitems li:nth-child(3) > *:first-child{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'syne';
+  }
+  .experiencelistitems li:nth-child(2) > *:nth-child(2) {
+    font-family: "DM Sans", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    color: rgba(8, 8, 8, 0.6);
+  }
+.experienceresume{
+    display: flex;
+    
+}
+  .experienceresume > a{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    color: white;
+    font-family: 'syne';
+    font-size: 15px;
+    font-weight: 700;
+    background-color: black;
+    border-radius: 10px;
+  }
+  /* .experienceresume a:first-child span{
+    display: inline-block;
+
+  } */
+   

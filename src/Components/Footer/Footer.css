@@ -1,0 +1,118 @@
+.footersectioncontainer{
+    background-color: black;
+    padding-top: 120px;
+    /* min-height: 100vh; */
+}
+.footercontainer{
+    max-width: 1295px;
+    width: 100%;
+    margin: auto;
+}
+.footergridcontainer{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    gap: 1.5rem;
+}
+.footercardcontainer1{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+.footercardcontainer1>h3{
+    margin: 0%;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'syne';
+    color: rgba(255, 255, 255, 1);
+}
+.footercardcontainer1>div{
+    display: flex;
+    margin-top: 2.5rem;
+    align-items: center;
+    gap: 3px;
+    font-family: 'syne';
+}
+.footercardcontainer1>div>ul{
+    display: flex;
+    padding: 0%;
+}
+.footercardcontainer1 div span{
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.footercardcontainer2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top:2.25rem ;
+    padding-bottom: 2.25rem;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+   
+}
+.footercardcontainer2>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'syne';
+    margin-bottom: 1.25rem;
+}
+.footercardcontainer2 div p{
+    color: #FF9330;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.footercardcontainer2  h3{
+    margin: 0%;
+    margin-top:1.25rem ;
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-family: 'syne';
+    color: rgba(255, 255, 255, 1);
+}
+.footercardcontainer2 div a {
+    color: rgba(255, 255, 255, 1);
+
+}
+.footernamegridcontainer{
+    display: grid;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.footernamegridcontainer>div{
+    grid-column: span 12 / span 12;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+.footerbottomcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footerbottomcontainer>p{
+    color: rgba(255, 255, 255, 1);
+}
+.footerbottomcontainer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-family: 'syne';
+    cursor: pointer;
+}
+.footerbottomcontainer div span{
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.125rem;
+    font-family: 400;
+}
+
+.footercardcontainer1 h3 span{
+    width: 60px;
+    height: 60px;
+    background-color: sandybrown;
+    border-radius: 9999px;
+}

@@ -1,0 +1,14 @@
+
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0%;
+    font-family: 'syne';
+}
+span{
+    font-weight: 700;
+    /* font-size: 1.25rem; */
+}
+ul,li{
+    margin: 0%;
+    padding: 0%;
+}

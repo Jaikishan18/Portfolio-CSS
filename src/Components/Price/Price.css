@@ -1,0 +1,120 @@
+.pricesectioncontainer{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    /* min-height: 100vh; */
+}
+.pricecontainer{
+    max-width: 1295px;
+    width: 100%;
+    margin: auto;
+}
+.priceheadercontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 4rem;
+}
+.priceheadercontainer>div:nth-child(2)>a{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.priceheadercontainer>div:first-child{
+    max-width: 527px;
+    font-family: 'syne';
+    font-weight: 700;
+}
+.priceheadercontainer>div:nth-child(2){
+    font-family: 'syne';
+    font-weight: 700;
+}
+.priceheadercontainer>div:nth-child(2)>a{
+    font-size: 15px;
+}
+.priceheadercontainer>div:first-child>span:first-child{
+    color: #FF9330;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+.priceheadercontainer>div:first-child>h3:nth-child(2){
+    margin: 0%;
+    font-size: 3rem;
+    line-height: 1;
+}
+.priceheadercontainer>div:nth-child(2){
+    display: flex;
+    background-color: black;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 0.5rem;
+}
+.priceheadercontainer>div:nth-child(2)>a{
+    display: flex;
+    color: white;
+}
+.pricegridcontainer{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    gap: 1.5rem;
+}
+.pricecardcontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 2rem;
+    background-color: rgba(8, 8, 8, 0.04);
+    border-radius: 1rem;
+}
+.pricecardcontainer:hover{
+    opacity: 1;
+    background-color:white;
+    box-shadow: (0 0 #0000, 0 0 rgba(0, 0, 0, 0)), (0 0 #0000, 0 0 rgba(0, 0, 0, 0)), ( 0 #0000);
+    padding: 5px;
+    cursor: pointer;
+}
+.pricecardtopcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'syne';
+}
+.pricecardbottomcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+}
+.pricecardtopcontainer>span:first-child{
+    line-height: 1;
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: rgba(8, 8, 8, 0.6);
+}
+.pricecardtopcontainer>span:nth-child(2){
+    color: #FF9330;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+.pricecardbottomcontainer>div:first-child{
+    font-family: 'syne';
+}
+.pricecardbottomcontainer>div:first-child>h4{
+    font-weight: 700;
+    font-size: 32px;
+    margin: 0;
+    margin-bottom: 0.25rem;
+}
+.pricecardbottomcontainer>div:first-child>p{
+    color: rgba(8, 8, 8, 0.6);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+.pricecardbottomcontainer>a:nth-child(2){
+    color: rgba(8, 8, 8, 0.6);
+}
+

@@ -1,0 +1,140 @@
+.portfoliosectioncontainer{
+    padding-top: 100px;
+    /* padding-bottom: 100px; */
+    background-color: #FFE9D9;
+    min-height: 100vh;
+}
+.portfoliocontainer{
+    margin-left: auto;
+    margin-right: auto;
+    max-width:1295px;
+    padding-left: 1rem;
+}
+.portfoliogridcontainer{
+    display: grid;
+    grid-template-columns: repeat(12,minmax(0,1fr));
+    gap: 1.25rem;
+    margin-top: 20px;
+}
+.portfoliotitle{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.portfolioleftgrid{
+    grid-column: span 6 / span 6; 
+}
+.portfoliorightgrid{
+    grid-column: span 6 / span 7;
+}
+.portfoliotitle>span{
+    color: orange;
+    font-family: 'syne';
+    font-size:1.25rem;
+    line-height: 1.75rem;
+}
+.portfoliotitle>h3{
+    
+    margin: 0%;
+    color: #080808;
+    font-size: 64px;
+    font-family: 'syne';
+}
+.portfolioimagegrid{
+    border-radius: 20px;
+    overflow: hidden;
+}
+.portfolioimagegrid>img{
+    width: 100%;
+}
+.portfolioappgrid{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+.portfolioappgrid > div:first-child{
+    display: flex;
+    gap: 0.5rem;
+    padding-top: 0.5rem;
+}
+.portfolioappgrid > div:first-child > a:first-child{
+    font-size: 0.75rem;
+    font-weight: 500;
+    font-family: 'syne';
+    color: #080808CC;
+    border: 1px solid black;
+    border-radius: 40px;
+    border-color: rgba(8, 8, 8, 0.4);
+    padding-top:6px;
+    padding-bottom: 6px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.portfolioappgrid > div:first-child > a:nth-child(2){
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #080808CC;
+    border: 1px solid black;
+    border-radius: 40px;
+    border-color: rgba(8, 8, 8, 0.4);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.portfolioappgrid > div:nth-child(2){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.portfolioappgrid > div:nth-child(2) > h3:first-child{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'syne';
+    color: #080808;
+}
+.portfolioproject{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: #080808;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.portfolioproject>span{
+    color: white;
+    font-size: 16px;
+    font-family: 'syne';
+    font-weight: 500;
+}
+.portfolioproject>a{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

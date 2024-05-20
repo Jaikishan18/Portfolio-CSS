@@ -1,0 +1,154 @@
+.service-container{
+    padding-top: 120x;
+    /* margin: auto; */
+}
+
+.subservice1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-left: 60px;
+    margin: 60px ;
+    /* min-height: 100vh; */
+}
+.service-heading{
+    color: orange;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0%;
+}
+.specialities-heading{
+    font-size: 54px;
+    margin: 0%;
+  }
+  .paragraph{
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-family: "DM Sans", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: rgba(8, 8, 8, 0.6);
+}
+
+.subservice2{
+    margin: 0%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1.5rem;
+    /* padding-left: 80px; */
+}
+.leftcontainer{
+    margin: 0%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* grid-template-rows: auto; */
+    width: 834px;
+    gap: 10px;
+    padding-left: 60px;
+
+}
+.leftcardcontainer{
+    
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1.5rem ;
+    padding-right: 1.75rem;
+    background-color: rgb(8,8,8,0.04);
+    width: 240px;
+    border-radius: 0.5rem;
+ }
+ .icon{
+    padding: 5px;
+    background-color: rgb(255,255,255);
+    border-radius: 9999px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 2rem;
+ }
+ .leftcardcontainer>h4{
+    font-family: "syne";
+    font-size: 1.25rem;
+    font-weight: 700;
+ }
+ .rightservicecontainer{
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* height: 100%; */
+    /* width: 947.2px; */
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+    width: 385px;
+ }
+.rightarrowcontainer{
+    display: flex;
+    justify-content:flex-end;
+    position: relative;
+}
+svg{
+    display: block;
+}
+.rightcontainerdetails{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 0.5rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+.rightcontainerdetails>span{
+    color: rgba(255, 147, 48, 1); 
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+.rightcontainerdetails>h4{
+    color: rgb(255,255,255);
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'syne';
+    margin: 0;
+}
+.specialities-heading>span{
+    width: 60px;
+    height: 60px;
+    background-color: sandybrown;
+    border-radius: 9999px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

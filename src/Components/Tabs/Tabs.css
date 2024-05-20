@@ -1,0 +1,117 @@
+.tabsectioncontainer{
+    padding-top: 120px ;
+    padding-bottom: 100px;
+    background-color: rgb(245, 241, 241);
+}
+.tabscontainer{
+    margin-left: auto;
+    margin-right: auto;
+    max-width:1295px;
+    padding-left: 1rem;
+}
+.tabsgridcontainer{
+    display: grid;
+    grid-template-columns: repeat(12,minmax(0,1fr));
+    justify-content: space-between;
+}
+.tabsleftcontainer{
+    display: grid;
+    grid-column: span 4;
+}
+
+.tabslefttopcontainer{
+   
+    display: flex;
+    flex-direction: column;
+   
+    font-weight: 700;
+}
+.tabslefttopcontainer>span{
+    padding-left: 5px;
+    color: orange;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+.tabslefttopcontainer>h3{
+    font-size: 64px;
+    margin: 0;
+}
+
+.tableleftbottomcontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* padding: 10px; */
+}
+.tableleftbottomcontainer>button{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    background-color: white;
+    color: rgb(12, 12, 12);
+    /* border-radius: 20px; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;s */
+    font-weight:700;
+    font-size: 1.125rem;
+}
+.tableleftbottomcontainer>button:hover{
+    background-color: black;
+    color: white;
+}
+
+.tabsrightcontainer{
+    display: grid;
+    grid-column: 6 /span 8;
+    width:100%;
+    max-width: 938px;
+    align-items: start;
+}
+.tabsrightcontainer >h4{
+    font-weight: 700;
+    font-size: 32px;
+    color: rgb(12, 12, 12);
+    font-family: 'syne';
+    margin: 0%;
+}
+.tabsrightcontainer>p{
+    font-family: 'syne';
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    color: rgba(8, 8, 8, 0.6);
+}
+.tabsdetailsitems{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 60px;
+}
+.tabsdetailsitems>li{
+    display: inline-flex;
+    gap:2.5rem;
+    align-items: center;
+    font-family: 'syne';
+}
+.tabsdetailsitems>li span:first-child{
+    width: 110px;
+}
+.tabsdetailsitems>li span:nth-child(2){
+    font-weight: 700;
+}
+.tabslefttopcontainer h3 span{
+    width: 64px;
+    height: 64px;
+    background-color: sandybrown;
+    border-radius: 9999px;
+}
+.feedbackleftcontainer h3 span{
+    width: 64px;
+    height: 64px;
+    background-color: sandybrown;
+    border-radius: 9999px;
+}
+
+
